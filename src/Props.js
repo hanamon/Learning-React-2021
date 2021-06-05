@@ -1,11 +1,11 @@
 import React from 'react';
 
 function Props(props) {  
-  console.log(props);
+  //console.log(props);
 
   const { name, nickName, fontSize, color, padding, background } = props;
 
-  console.log( name, fontSize, color, padding, background );
+  //console.log( name, fontSize, color, padding, background );
 
   return (
     <div className="container">
