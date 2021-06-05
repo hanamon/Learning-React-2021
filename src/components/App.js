@@ -1,6 +1,6 @@
-import './App.css';
-import Props from './Props';
+import '../style.css';
 import Wrapper from './Wrapper';
+import Props from './Props';
 import ConditiRender from './ConditiRender';
 import Count from './Count';
 import SingleInput from './SingleInput';
