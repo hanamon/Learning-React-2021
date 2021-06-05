@@ -1,7 +1,12 @@
+import './App.css';
+import SingleInput from './SingleInput';
+import MultiyInput from './MultiyInput';
+
 function App() {
   return (
     <div className="App">
-      안녕하세요.
+      <SingleInput />
+      <MultiyInput />
     </div>
   );
 }
