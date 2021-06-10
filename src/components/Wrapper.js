@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Wrapper({ children }) {
-  console.log(children);
+  //console.log(children);
 
   return (
     <div className="wrapper">

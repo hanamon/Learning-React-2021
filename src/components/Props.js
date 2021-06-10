@@ -3,7 +3,7 @@ import React from 'react';
 function Props(props) {  
   //console.log(props);
 
-  const { name, nickName, fontSize, color, padding, background } = props;
+  const { name, nickName, fontSize, color, padding, background, text } = props;
 
   //console.log( name, fontSize, color, padding, background );
 
@@ -13,7 +13,9 @@ function Props(props) {
       <div>
         <div style={{fontSize, color, padding, background}}>
           Hello {name}!<br />
-          {nickName}
+          {nickName}<br />
+          {background}<br />
+          {text}
         </div>
       </div>
     </div>
